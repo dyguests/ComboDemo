@@ -2,5 +2,7 @@
 
 public class Weapon : MonoBehaviour
 {
-    // todo
+    public float damage;
+    
+    [SerializeField] private BoxCollider2D triggerBox;
 }
