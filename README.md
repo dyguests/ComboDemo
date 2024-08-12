@@ -1,7 +1,7 @@
 # ComboDemo
 
 ```
-git clone --recurse-submodules 
+git clone --recurse-submodules git@github.com:dyguests/ComboDemo.git
 ```
 
 # References
