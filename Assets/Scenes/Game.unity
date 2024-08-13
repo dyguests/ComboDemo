@@ -280,6 +280,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 3e17246cd69a40f3acc9b06f9e96c2bb, type: 3}
   m_PrefabInstance: {fileID: 699565850}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &699565852 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1160356261127867848, guid: 3e17246cd69a40f3acc9b06f9e96c2bb, type: 3}
+  m_PrefabInstance: {fileID: 699565850}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1374207369
 GameObject:
   m_ObjectHideFlags: 0
@@ -289,8 +294,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1374207370}
-  - component: {fileID: 1374207371}
   - component: {fileID: 1374207372}
+  - component: {fileID: 1374207373}
+  - component: {fileID: 1374207371}
   m_Layer: 0
   m_Name: Weapon
   m_TagString: Untagged
@@ -373,6 +379,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 2}
   m_EdgeRadius: 0
+--- !u!114 &1374207373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374207369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c24685fc9ebf44cca11d690171e29d73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  combo:
+  - {fileID: 11400000, guid: 28f1494f6fffb194fb81baf02fe31e04, type: 2}
+  - {fileID: 11400000, guid: 36bf96e2856389e4cb991c8996969101, type: 2}
+  anim: {fileID: 699565852}
+  weapon: {fileID: 1374207371}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
